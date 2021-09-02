@@ -1,12 +1,30 @@
-<h1>Cinderella</h1>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>book</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="synopsis.php">Synopsis</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="chapter.php">Chapter List</a></li>
+        </ul>
+      </nav>
+        
+      <?php
+            $nama = 'Beauty and the Beast';
+            echo"<h1>$nama</h1>";
+            $launched = '10 April 2015';
+            echo"<h1>$launched</h1>";
+            $Language = 'English';
+            echo"<h1>$Language</h1>";
+            ?>
+        <img src="pic.jpg">
+        
 
-<h3>Cinderella, the beautiful and kind-hearted daughter, sees her world turn </h3>
-<h3>upside down when her beloved mother dies, and her pained father remarries </h3>
-<h3>another woman, the wicked Lady Tremaine, who has two equally cruel daughters, </h3>
-<h3>the jealous Anastasia and Drizella. But, once more, things will go from bad to </h3>
-<h3>worse, When Cinderella's father, too, dies, leaving her all alone in the Lady's </h3>
-<h3>clutches to serve as her maid-of-all-work. Under those circumstances, a shabby </h3>
-<h3>and neglected Cinderella doesn't stand much of a chance of attending the King's </h3>
-<h3>royal ball--let alone, captivate the handsome Prince--unless she turns to her </h3>
-<h3>loving Fairy Godmother who has quite a few tricks up her sleeve. Nevertheless, </h3>
-<h3>will the wronged damsel ever find peace--and with it--her own Prince Charming ?</h3>
+  </body>
+</html>
