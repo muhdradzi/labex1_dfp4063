@@ -6,14 +6,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <nav>
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="synopsis.php">Synopsis</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="chapter.php">Chapter List</a></li>       
-        </ul>
-      </nav>
+
+  <div class="navbar">
+        <?php include "containingMenu.php"; ?>
+      </div>
 
       <h2>Chapter 1 : Into The Forest</h2>
       <br>
